@@ -1,6 +1,8 @@
 ### Hi there, I'm Dani Hemanth [Dani joy Earth][Virusmap] 👋
 
-[![Website](https://img.shields.io/website?label=codeSTACKr.com&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://mananeeds.in)
+[![Website](https://img.shields.io/website?label=Mananeeds.in&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://mananeeds.in)
+
+[![Website](https://img.shields.io/website?label=virusmap.in&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://virusmap.in)
 
 
 ## I'm a Son, Developer, and Teacher!!
