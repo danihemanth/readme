@@ -1,11 +1,11 @@
 ### Hi there, I'm Dani Hemanth [Dani joy Earth][Virusmap] 👋
 
-[![Website](https://img.shields.io/website?label=Mananeeds.in&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://mananeeds.in)
+[![Website](https://img.shields.io/website?label=Mananeeds.in&style=for-the-badge&url=https%3A%2F%2Fmananeeds.in)](https://mananeeds.in)
 
-[![Website](https://img.shields.io/website?label=virusmap.in&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://virusmap.in)
+[![Website](https://img.shields.io/website?label=virusmap.in&style=for-the-badge&url=https%3A%2F%2Fvirusmap.in)](http://virusmap.in)
 
 
-## I'm a Son, Developer, and Teacher!!
+## I'm a Son, Developer, Innovator and Teacher!!
 
 - 🔭 I just launched my first course: [Become A VS Code SuperHero!][course]!
 - 🌱 I’m currently learning everything 🤣
