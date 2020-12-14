@@ -2,7 +2,7 @@
 
 [![Website](https://img.shields.io/website?label=Mananeeds.in&style=for-the-badge&url=https%3A%2F%2Fmananeeds.in)](https://mananeeds.in)
 
-[![Website](https://img.shields.io/website?label=virusmap.in&style=for-the-badge&url=https%3A%2F%2Fvirusmap.in)](http://virusmap.in)
+
 
 
 ## I'm a Son, Developer, Innovator and Teacher!!
@@ -15,7 +15,7 @@
 
 ### Spotify Playing 🎧
 
-[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="350" />](https://open.spotify.com/user/swyqyimdc12jajde4vpwd2x1b)
+[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="danihemanth Spotify Playing" width="350" />](https://open.spotify.com/user/50rp6bocf5f75hvv3bd02xjby?si=yPHS7pjcQ8yN9a0V4KgDXg)
 
 ### Connect with me:
 
