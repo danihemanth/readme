@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <!-- Required meta tags  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Delta Heart tracking system</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+  
+
+    <link rel="stylesheet" href="slicknav.min.css">
+    <!--Core CSS -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#config-web-app -->
+    
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBiCasLzsPZTObojflj5FmbdR56FwEsT-8",
+        authDomain: "iotfirebaseproject-760c1.firebaseapp.com",
+        databaseURL: "https://iotfirebaseproject-760c1.firebaseio.com",
+        projectId: "iotfirebaseproject-760c1",
+        storageBucket: "iotfirebaseproject-760c1.appspot.com",
+        messagingSenderId: "461152123840",
+        appId: "1:461152123840:web:87a2fe8378c166c6322625"
+      };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="js/upload.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+
+
+</head>
+
+<body>
+    <div id="huro-app" class="app-wrapper">
+
+        <!-- Pageloader -->
+        <div class="pageloader is-full"></div>
+        <div class="infraloader is-full is-active"></div>
+        <div class="minimal-wrapper light">
+
+            <div class="landing-page-wrapper">
+                <!-- Hero and Navbar -->
+                <div id="huro-landing" class="hero is-fullheight rounded-hero">
+
+                    <!-- Navbar partial -->
+                    <nav class="navbar is-fixed-top is-transparent is-docked" aria-label="main navigation">
+                        <div class="navbar-brand">
+                            <a class="navbar-item" href="https://bulma.io/">
+                                <div class="brand-icon">
+                                    <img class="light-image-l" src="assets/img/logos/logo/logo.svg" alt="" />
+                                    <img class="dark-image-l" src="assets/img/logos/logo/logo-light.svg" alt="" />
+                                </div>
+                            </a>
+
+                            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false">
+                                <span aria-hidden="true"></span>
+                                <span aria-hidden="true"></span>
+                                <span aria-hidden="true"></span>
+                            </a>
+                        </div>
+
+                        <div class="navbar-menu">
+                            <div class="navbar-start">
+                                <div class="navbar-item">
+                                    <a href="index.html" target="_blank" class="nav-link is-active "><h3 class="title is-4  is-dark is-bold"><span>Delta Heart Track</span></h3></a>
+                                </div>
+
+                                <div class="navbar-item">
+                                    <a href="#" class="nav-link is-scroll">Features</a>
+                                </div>
+
+                                <div class="navbar-item">
+                                    <a href="#" class="nav-link is-scroll">Github Repo</a>
+                                </div>
+
+                                <div class="navbar-item">
+                                    <a class="nav-link">Docs</a>
+                                </div>
+
+                                <div class="navbar-item">
+                                    <a class="nav-link">Support</a>
+                                </div>
+                            </div>
+
+                            <div class="navbar-end">
+                                <div class="navbar-item is-theme-toggle">
+                                    <label class="theme-toggle">
+                                        <input id="navbar-night-toggle--daynight" type="checkbox">
+                                        <span class="toggler">
+                                                <span class="dark">
+                                                    <i data-feather="moon"></i>
+                                                </span>
+                                        <span class="light">
+                                                    <i data-feather="sun"></i>
+                                                </span>
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="navbar-item">
+                                    <a href="auth-login-1.html" class="nav-link">Login</a>
+                                </div>
+                                <div class="navbar-item">
+                                    <a href="auth-signup-3.html" class="button h-button is-rounded is-primary is-raised">
+                                        <strong>Sign up</strong>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="absolute-header">
+                        <div class="header-inner">
+                            <img class="cut-circle light-image-l" src="assets/img/shapes/cut-circle.svg" alt="">
+                            <img class="cut-circle dark-image-l" src="assets/img/shapes/cut-circle-dark.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="hero-body has-text-centered">
+                        <div class="container">
+                            <div class="switch-wrapper">
+                                <div class="night-toggle night-toggle--daynight">
+                                    <input type="checkbox" id="night-toggle--daynight" class="night-toggle--checkbox" checked>
+                                    <label class="night-toggle--btn" for="night-toggle--daynight"><span
+                                                class="night-toggle--feature"></span></label>
+                                </div>
+                            </div>
+                            <h1 class="title is-1 is-bold is-light is-bold">The World Needs <span>Good Health</span>.</h1>
+                            <h3 class="subtitle is-4 is-light">Delta smart tracking<span
+                                        class="tag is-primary is-rounded">1.1</span></h3>
+
+                              </div>
+                    </div>
+
+                   
+                </div>
+
+                <!--Stacks Section-->
+          
+                        <!--Title-->
+                     
+
+                             
+                  <div class="containers">
+                    <div class="forms-container">
+                      <div class="signin-signup">
+                        
+                        <form action="auth.php" method="post" class="sign-in-form">
+                          <h2 class="title">Log in</h2>
+                          
+                          
+                          <div class="input-field">
+                            <i class="fas fa-user"></i>
+                            <input type="text" id="u_email" name="username"  placeholder="Username" required>
+                          </div>
+                            <div class="input-field">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" name="password" id="u_password" placeholder="Password" required>
+                          
+                            </div>
+                          <input type="submit" value="Login"  class="btn solid" />
+                       
+                          <p class="social-text">Or Sign in with social platforms onclick="loginUser();"</p>
+                          <div class="social-media">
+                            <a href="#" class="social-icon">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                              <i class="fab fa-google"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                              <i class="fab fa-linkedin-in"></i>
+                            </a>
+                          </div>
+                        </form>
+                  
+                  
+                        <form action="register.php" method="post" autocomplete="off" class="sign-up-form">
+                          <h2 class="title">Sign up</h2>
+                          <div class="input-field">
+                            <i class="fas fa-user"></i>
+                            <input type="text" name="username" id="userEmail" placeholder="Username" required>
+                          </div>
+                          <div class="input-field">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" name="email"  id="userPassword" placeholder="Email" required>
+                          </div>
+                          <div class="input-field">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" name="password" id="confirmPassword" placeholder="Password" required>
+                          </div>
+                          <input type="submit"  class="btn" value="Register"  />
+                          <p class="social-text">Or Sign up with social platforms onclick="createUser();"</p>
+                          <div class="social-media">
+                            <a href="#" class="social-icon">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                              <i class="fab fa-google"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                              <i class="fab fa-linkedin-in"></i>
+                            </a>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  
+                    <div class="panels-container">
+                      <div class="panel left-panel">
+                        <div class="content">
+                          <h3>New here ?</h3>
+                          <p style="color:gainsboro">
+                            New here sign up and enjoy .....
+                          </p>
+                          <button class="btn transparent" id="sign-up-btn">
+                            Sign up
+                          </button>
+                          
+                        </div>
+                        <img src="img/log.svg" class="image" alt="" />
+                      </div>
+                      
+                      <div class="panel right-panel">
+                        <div class="content">
+                        
+                          <h3>One of us ?</h3>
+                          <p style="color:gainsboro">
+                            Already registered with us Login and Enjoy the seemless tracking support.  
+                          </p>
+                          <button class="btn transparent" id="sign-in-btn">
+                            Sign in
+                          </button>
+                          <button class="btn transparent" id="sign-up-btn">
+                            Get Password
+                          </button>
+                        </div>
+                        <img src="img/register.svg" class="image" alt="" />
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                                  
+                                  
+                       
+                        </div>
+                                    
+                
+                           
+                        <div class="cta-wrapper">
+                            <div class="cta-title">
+                                <h3>Exclusively on Heart Monitoring</h3>
+                                <a href="#" target="_blank" class="custom-button">
+                                    <img src="assets/img/icons/logos/envato.svg" alt="">
+                                    <span>Get It Now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- Footer -->
+                <!-- Simple light footer -->
+                
+                <!-- /Simple light footer -->
+                <!-- Back To Top Button -->
+                <div id="backtotop">
+                    <a href="#">
+                        <i class="fas fa-angle-up"></i>
+                    </a>
+                </div>
+           
+        </div>
+
+        <!-- Concatenated plugins -->
+        <script src="assets/js/app.js"></script>
+
+        <!-- Huro js -->
+        <script src="assets/js/functions.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/components.js"></script>
+        <script src="assets/js/popover.js"></script>
+        <script src="assets/js/widgets.js"></script>
+
+
+        <!-- Additional Features -->
+        <script src="assets/js/touch.js"></script>
+
+        <!-- Landing page js -->
+        <script src="assets/js/landing.js"></script>
+
+        <!-- Dashboards js -->
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="jquery.slicknav.min.js"></script>
+        <script src="app.js"></script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+              $('#menu').slicknav();
+          });
+      </script>
+
+        <script src="assets/js/syntax.js"></script>
+    
+</body>
+
+
+<!-- Mirrored from huro.cssninja.io/auth-signup.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Jan 2021 08:13:26 GMT -->
+</html>
